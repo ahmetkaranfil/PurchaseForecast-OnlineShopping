@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 def main():
     # 1. Veri Yükleme
-    df = pd.read_csv(r"C:\Users\pv\Downloads\online_shoppers_purchasing_intention_dataset\online_shoppers_intention.csv")
+    df = pd.read_csv("online_shoppers_intention.csv")
 
     # 2. Veri Ön İşleme
     df.dropna(inplace=True)
